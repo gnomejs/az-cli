@@ -1,4 +1,4 @@
-import { az, type AzCommand } from "./az.ts";
+import { az, type AzCommand } from "./cli.ts";
 import type { GlobalArgs } from "./types.d.ts";
 import type { CommandOptions } from "@gnome/exec";
 

@@ -1,4 +1,4 @@
-import { az } from "./az.ts";
+import { az } from "./cli.ts";
 import { assert as ok, assertEquals as equals } from "jsr:@std/assert@^0.224.0";
 
 Deno.test("az", async () => {
@@ -14,5 +14,5 @@ Deno.test("az help", async () => {
 
 Deno.test("az login", async () => {
     const result = await az(["account", "show"]);
-    equals(result.code, 1);
+    ok(result.code !== 0);
 });

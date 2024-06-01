@@ -33,6 +33,6 @@
  * ```
  * @module
  */
-export * from "./az.ts";
+export * from "./cli.ts";
 export * from "./login.ts";
 export * from "./logout.ts";

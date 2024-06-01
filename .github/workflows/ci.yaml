@@ -1,4 +1,4 @@
-name: "@gnome/vault-cli CI"
+name: "@gnome/az-cli CI"
 
 on:
   push:

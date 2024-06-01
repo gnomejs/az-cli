@@ -37,7 +37,7 @@ console.log(result.code);
 console.log(result.text());
 console.log(result.errorText());
 
-const json = await az({ splat: { command: ["account", "show"]  }}).json();
+const json = await az({ splat: { command: ["account", "show"] }}).json();
 console.log(json);
 ```
 

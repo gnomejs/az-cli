@@ -13,14 +13,14 @@ pathFinder.set("az", {
 });
 
 /**
- * Represents a Vault command.
+ * Represents an az command.
  *
  * When using the SplatObject for CommandArgs, the
  * `prefix` and `assign` properties are set to "-" and "=" respectively.
  */
 export class AzCommand extends Command {
     /**
-     * Creates a new instance of the `VaultCommand` class.
+     * Creates a new instance of the `AzCommand` class.
      * @param args The command arguments.
      * @param options The command options.
      */

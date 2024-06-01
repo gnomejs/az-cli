@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "exports": {
         ".": "./mod.ts",
-        "./az": "./az.ts",
+        "./cli": "./cli.ts",
         "./login": "./login.ts",
         "./logout": "./logout.ts",
         "./types.d.ts": "./types.d.ts"
@@ -28,7 +28,7 @@
     "publish": {
         "include": [
             "mod.ts",
-            "az.ts",
+            "cli.ts",
             "login.ts",
             "logout.ts",
             "types.d.ts",
@@ -37,5 +37,5 @@
             "deno.json"
         ]
     },
-    "imports": { "@gnome/exec": "jsr:@gnome/exec@^0.4.2" }
+    "imports": { "@gnome/exec": "jsr:@gnome/exec@^0.4.4" }
 }

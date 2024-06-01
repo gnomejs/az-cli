@@ -5,7 +5,7 @@
       "jsr:@gnome/char@^0.0.0": "jsr:@gnome/char@0.0.0",
       "jsr:@gnome/env@^0.1.0": "jsr:@gnome/env@0.1.0",
       "jsr:@gnome/errors@^0.0.0": "jsr:@gnome/errors@0.0.0",
-      "jsr:@gnome/exec@^0.4.2": "jsr:@gnome/exec@0.4.2",
+      "jsr:@gnome/exec@^0.4.4": "jsr:@gnome/exec@0.4.4",
       "jsr:@gnome/fs@^0.0.0": "jsr:@gnome/fs@0.0.0",
       "jsr:@gnome/os-constants@^0.0.0": "jsr:@gnome/os-constants@0.0.0",
       "jsr:@gnome/runtime-constants@^0.0.0": "jsr:@gnome/runtime-constants@0.0.0",
@@ -30,8 +30,8 @@
       "@gnome/errors@0.0.0": {
         "integrity": "d288a695ea6f368082435382245d69366a26ebae707a78fc573eb6996c55185e"
       },
-      "@gnome/exec@0.4.2": {
-        "integrity": "b0a8ca96a70bc387ccea67bfa9ae57f00251eb7c4cec55296baca5133e5eb052",
+      "@gnome/exec@0.4.4": {
+        "integrity": "52b658d995e90e05f79186df0c7a64a04e7d063b4f4bd7f7a9750dbc56aa6e9a",
         "dependencies": [
           "jsr:@gnome/env@^0.1.0",
           "jsr:@gnome/errors@^0.0.0",
@@ -95,7 +95,7 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "jsr:@gnome/exec@^0.4.2"
+      "jsr:@gnome/exec@^0.4.4"
     ]
   }
 }
